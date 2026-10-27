@@ -223,9 +223,10 @@ input[type=range]:focus-visible{outline:2px solid var(--cyan);outline-offset:2px
 <script>
 /* ============ APNE STREAM URLS YAHAN DAALO ============ */
 const STREAMS = {
-  hindi:   { title: 'Hindi Commentary',   url: 'https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpch50d3/cricodi_2710-hin-3-ts-hls/std-mdd-600300010_3.m3u8?hdntl=exp=1793126052~acl=*~hmac=b563f02e6d5f2d7395e648a5ac7e66efb7b8f87ce683922ee573fb32d8a2f353&originpath=/linear/hls/pb/event/alWqozasSNeEIxePgYc3Og/stream/a4c928ca-1a63-4789-b344-ce42fb3b0534:TPE2/variant/d89ff0e63b6bfbe52014fec5fb07b209/bandwidth/791296.m3u8' },
-  english: { title: 'English Commentary', url: 'https://livecfdai-mp.slivcdn.com/out/v1/mpchgp431f/mpchc653/cricodi_2710-eng-3-ts-hls/std-mdd-600300010_3.m3u8?hdntl=exp=1793125821~acl=*~hmac=f9d0ad57fdf2f9534a28ef022ee71b2dc72f6afc82c17c03aeb021148d1f1db7&originpath=/linear/hls/pb/event/V1tapABJTSOCEfSvJXTwNQ/stream/b9ccc094-053a-490a-88f1-a0b25b5e159f:SIN2/variant/87b3052785f6b124a49d1c4fcde6fc44/bandwidth/791296.m3u8' }
+  hindi:   { title: 'Hindi Commentary',   url: '/proxy/sony/out/v1/mpchgp431f/mpch50d3/cricodi_2710-hin-3-ts-hls/std-mdd-600300010_3.m3u8?hdntl=exp=1793126052~acl=*~hmac=b563f02e6d5f2d7395e648a5ac7e66efb7b8f87ce683922ee573fb32d8a2f353&originpath=/linear/hls/pb/event/alWqozasSNeEIxePgYc3Og/stream/a4c928ca-1a63-4789-b344-ce42fb3b0534:TPE2/variant/d89ff0e63b6bfbe52014fec5fb07b209/bandwidth/791296.m3u8' },
+  english: { title: 'English Commentary', url: '/proxy/sony/out/v1/mpchgp431f/mpchc653/cricodi_2710-eng-3-ts-hls/std-mdd-600300010_3.m3u8?hdntl=exp=1793125821~acl=*~hmac=f9d0ad57fdf2f9534a28ef022ee71b2dc72f6afc82c17c03aeb021148d1f1db7&originpath=/linear/hls/pb/event/V1tapABJTSOCEfSvJXTwNQ/stream/b9ccc094-053a-490a-88f1-a0b25b5e159f:SIN2/variant/87b3052785f6b124a49d1c4fcde6fc44/bandwidth/791296.m3u8' }
 };
+
 /* ======================================================== */
 
 const $ = s => document.querySelector(s), $$ = s => document.querySelectorAll(s);
