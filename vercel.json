@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/proxy/sony/:path*",
-      "destination": "https://livecfdai-mp.slivcdn.com/:path*"
-    }
-  ]
-}
